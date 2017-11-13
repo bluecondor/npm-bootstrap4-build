@@ -2,13 +2,5 @@
 @import 'utilities';
 
 body {
-  background-color: $color-teal-base;
-}
-
-.foo {
-  @include absolute(0, 0, auto, auto);
-}
-
-.Tour {
-  display: flex;
+  background-color: greenyellow;
 }
