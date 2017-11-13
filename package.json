@@ -18,7 +18,7 @@
     "compress"
   ],
   "scripts": {
-    "autoprefixer": "postcss -u autoprefixer -r dist/css/*",
+    "autoprefixer": "postcss -u autoprefixer -r dist/css/style.css",
     "scss": "node-sass --output-style compressed -o dist/css src/scss",
     "lint": "eslint src/js || true",
     "lint-scss": "stylelint src/scss/*.scss --syntax scss || true",
