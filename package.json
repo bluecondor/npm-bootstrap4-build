@@ -18,6 +18,7 @@
     "compress"
   ],
   "scripts": {
+    "clean": "rimraf dist/{css/*,js/*,images/*}",
     "autoprefixer": "postcss -u autoprefixer -r dist/css/*",
     "scss": "node-sass --output-style compressed -o dist/css src/scss",
     "lint": "eslint src/js || true",
